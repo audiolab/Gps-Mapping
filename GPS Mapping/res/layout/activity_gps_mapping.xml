@@ -4,11 +4,31 @@
     android:layout_height="match_parent" >
 
     <TextView
+        android:id="@+id/ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/waiting_locations"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".Gps_mapping" />
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ubicacion"
+        android:layout_marginTop="66dp"
+        android:text="@string/datos_grabados" />
+
+    <TextView
+        android:id="@+id/textRegistros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="0" />
 
 </RelativeLayout>

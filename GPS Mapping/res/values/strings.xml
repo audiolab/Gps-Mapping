@@ -1,8 +1,12 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">GPS Mapping</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_gps_mapping">Gps Mapping</string>
+    <string name="button_start">Empezar registro</string>
+    <string name="button_stop">Finalizar registro</string>
+    <string name="waiting_locations">Esperando ubicación</string>
+    <string name="datos_grabados">Registros almacenados:</string>
 
 </resources>

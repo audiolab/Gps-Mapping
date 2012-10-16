@@ -1,6 +1,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_settings"
-        android:title="@string/menu_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+    <item android:id="@+id/start_recording" android:visible="true" android:title="@string/button_start" android:orderInCategory="100" android:onClick="stopRecording"></item>
+    <item android:id="@+id/stop_recording" android:title="@string/button_stop" android:visible="true" android:onClick="startRecording"></item>
 </menu>
